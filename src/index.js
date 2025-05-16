@@ -12,9 +12,10 @@ root.render(
   backgroundRepeat: "no-repeat",
   backgroundSize: "100% 100%",
   backgroundPosition: "center",
-  height: "100vh",
-  minWidth: "100wh", 
-  minHeight: "400px"
+  minHeight: "100vh",  
+  height: "auto",    
+  minWidth: "100vw", 
+  padding: "1rem 0"
 }}>
   <div className="flex-container2">
   <div>
