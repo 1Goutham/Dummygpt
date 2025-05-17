@@ -43,7 +43,9 @@
   html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
   }
 
 .mainlogo{
@@ -297,11 +299,7 @@
     padding: 0rem;
     flex-wrap: wrap;
     gap: 0rem;
-}
-
-body {
-  justify-content: flex-start;  /* ✅ Push content to the top */
-}   
+}  
 
 @media (max-width: 500px) {
   .flex-container2 {
