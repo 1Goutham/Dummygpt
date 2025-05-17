@@ -60,11 +60,12 @@ function App() {
 }, [messages]);
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div style={{ padding: '0.5rem' }}>
       <div style={{
         width: '90vw',
         aspectRatio: '9383 / 4000',
         maxWidth:'800px',
+        marginTop:'0rem',
         margin: 'auto',
         display: 'flex',
         flexDirection: 'column',
@@ -88,7 +89,7 @@ function App() {
           <div
                 style={{
                 overflowY: 'scroll',
-                padding: '1rem',
+                padding: '0.5rem',
                 scrollbarWidth: 'none',       
                 msOverflowStyle: 'none'       
   }}
