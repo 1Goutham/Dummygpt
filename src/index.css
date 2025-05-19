@@ -12,7 +12,7 @@
     font-size: 13px;
     color: white;
     font-family: poppins;
-    background-color: linear-gradient(0% #9C9C9C, 57% #363636); /* Gradient color */
+    background-color: linear-gradient(0% #9C9C9C, 57% #363636);
     backdrop-filter: blur(150px);
     opacity: 100;
     border-radius: 10px; 

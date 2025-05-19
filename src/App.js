@@ -143,7 +143,7 @@ function App() {
                   width: '30px',
                   height: '30px',
                   borderRadius: '50%',
-                  backgroundImage: `url("${msg.role === 'user' ? '/assets/usertext.png' : '/assets/airesponse.png'}")`,
+                  backgroundImage: `url("${msg.role === 'user' ? '/assets/user-icon.png' : '/assets/airesponse.png'}")`,
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   marginRight: '10px',
